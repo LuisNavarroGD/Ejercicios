@@ -21,11 +21,11 @@ function subcadena(cadena) {
     let subcadena = "";
     let longitud = 0;
 
-    for (let elementos of cadena) {
-        if (subcadena.includes(elementos)) {
-            subcadena = subcadena.substring(subcadena.indexOf(elementos) + 1);
+    for (let e of cadena) {
+        if (subcadena.includes(e)) {
+            subcadena = subcadena.substring(subcadena.indexOf(e) + 1);
         }
-        subcadena += elementos;
+        subcadena += e;
         if (subcadena.length > longitud) {
             longitud = subcadena.length;
         }

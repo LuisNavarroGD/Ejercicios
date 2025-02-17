@@ -40,7 +40,6 @@ const simplificarRuta = (ruta) => {
         }
     }
 
-
     // Recorrer cada parte
     return '/' + pila.join('/');
 }

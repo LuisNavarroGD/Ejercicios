@@ -34,4 +34,4 @@ function jewelsInStones(jewels, stones) {
 }
 
 console.log(jewelsInStones("aA", "aAAbbbb"));
-console.log(stones("z", "ZZ"));
+console.log(stones("aA", "aAAbbbb"));
